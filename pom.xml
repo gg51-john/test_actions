@@ -40,6 +40,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>
+                        com.example.demo.Demo3Application
+                    </mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
